@@ -1,0 +1,67 @@
+body{
+    background-color: #a7a7a7;
+    background-image: url("../Imagenes/prueba\ fondo.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    font-family: 'Girassol', cursive;
+    text-align: center;
+}
+   
+p{
+    font-family: 'Itim', cursive;
+}
+
+nav{
+    justify-content: center;
+}
+
+aside{
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
+
+
+footer{
+    padding: 30px;
+}
+
+img{
+    border: rgb(0, 0, 0) 1px solid;
+}
+
+.padre{
+    display: flex;
+    background-color: #9386c7;
+    width: 375px;
+    color: rgb(32, 2, 44);
+    padding: 1px;
+}
+.hijos{
+    width:150px;
+    text-decoration: none;
+}
+
+a:link{
+    color: rgb(30, 8, 124);
+}
+
+a:hover{
+    background-color: #bdb0f8;
+    border: #4f365f 2px solid;
+}
+
+a:active{
+    border:#4f365f 3px outset ;
+}
+
+a:visited{
+    color: rgb(92, 20, 86);
+}
+
+footer{
+    background-color: rgb(109, 109, 109);
+}
